@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0c+We2gS/2M1eedID771g6fkkwgbV5MIwxa5LCPf7NFMORMcQXFA0iwIXaGACKJ4L+RCfhfNKB2qJd858rhCqQ==",
+  "dgSpecHash": "V5k8i494LEturjSN/3Xc3biT2a0S84zNdaMuxopkBOKlbFTjlHg6PalLSPBp398QvVrrA+/x0N3/5gqx7YlyIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\infla\\Desktop\\Dev\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
+  "projectFilePath": "C:\\Users\\infla\\Desktop\\Dev\\QuizGame\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\infla\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\infla\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -9656,11 +9656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\infla\\Desktop\\Dev\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
+      "projectUniqueName": "C:\\Users\\infla\\Desktop\\Dev\\QuizGame\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
       "projectName": "QuizAPI",
-      "projectPath": "C:\\Users\\infla\\Desktop\\Dev\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
+      "projectPath": "C:\\Users\\infla\\Desktop\\Dev\\QuizGame\\QuizAPI\\QuizAPI\\QuizAPI.csproj",
       "packagesPath": "C:\\Users\\infla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\infla\\Desktop\\Dev\\QuizAPI\\QuizAPI\\obj\\",
+      "outputPath": "C:\\Users\\infla\\Desktop\\Dev\\QuizGame\\QuizAPI\\QuizAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\infla\\AppData\\Roaming\\NuGet\\NuGet.Config",
