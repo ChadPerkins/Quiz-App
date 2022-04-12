@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { BASE_URL, createAPIEndpoint, ENDPOINTS } from "../api";
 import { getFormattedTime } from "../helper";
 import useStateContext from "../hooks/useStateContext";
@@ -18,8 +19,9 @@ export default function Quiz() {
     const [qns, setQns] = useState([]);
     const [qnIndex, setQnIndex] = useState(0);
     const [timeTaken, setTimeTaken] = useState(0);
-
     const { context, setContext } = useStateContext();
+
+    const navigate = useNavigate()
 
     let timer;
 
@@ -59,6 +61,7 @@ export default function Quiz() {
         } else {
             setContext({ selectedOptions: [...temp], timeTaken });
             // Navigate to the results component
+            navigate('/result')
         }
     };
 
