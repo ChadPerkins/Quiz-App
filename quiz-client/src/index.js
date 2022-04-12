@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import "./index.css";
 import App from "./App";
 import { CssBaseline, createTheme, ThemeProvider } from "@mui/material";
@@ -9,9 +9,14 @@ const theme = createTheme({
     palette: {
         mode: "dark",
     },
+    typography:{
+        fontFamily: 'IBM Plex Sans'
+    }
 });
 
-ReactDOM.render(
+const root = createRoot(document.getElementById("root"))
+
+root.render(
     <React.StrictMode>
         <ContextProvider>
             <ThemeProvider theme={theme}>
@@ -19,6 +24,5 @@ ReactDOM.render(
                 <App />
             </ThemeProvider>
         </ContextProvider>
-    </React.StrictMode>,
-    document.getElementById("root")
+    </React.StrictMode>
 );
