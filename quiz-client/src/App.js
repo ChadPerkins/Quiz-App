@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Authenticate from "./components/Authenticate";
 import Layout from "./components/Layout";
 import Login from "./components/Login";
 import Quiz from "./components/Quiz";
@@ -9,9 +10,11 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Login />} />
-                <Route path="/" element={<Layout />}>
-                    <Route path="/quiz" element={<Quiz />} />
-                    <Route path="/result" element={<Result />} />
+                <Route element={<Authenticate />}>
+                    <Route path="/" element={<Layout />}>
+                        <Route path="/quiz" element={<Quiz />} />
+                        <Route path="/result" element={<Result />} />
+                    </Route>
                 </Route>
             </Routes>
         </BrowserRouter>
