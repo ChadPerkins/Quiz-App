@@ -524,3 +524,4 @@ C:\Users\infla\Desktop\Dev\QuizGame\QuizAPI\QuizAPI\obj\Debug\net6.0\refint\Quiz
 C:\Users\infla\Desktop\Dev\QuizGame\QuizAPI\QuizAPI\obj\Debug\net6.0\QuizAPI.pdb
 C:\Users\infla\Desktop\Dev\QuizGame\QuizAPI\QuizAPI\obj\Debug\net6.0\QuizAPI.genruntimeconfig.cache
 C:\Users\infla\Desktop\Dev\QuizGame\QuizAPI\QuizAPI\obj\Debug\net6.0\ref\QuizAPI.dll
+C:\Users\infla\Desktop\Dev\QuizGame\QuizAPI\QuizAPI\bin\Debug\net6.0\QuizAPI.staticwebassets.runtime.json

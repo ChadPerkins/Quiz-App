@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "7YgdjjiepqGNvyqhTKdduYkkT4GYfyJncvv2ZUukSOA=",
+  "Hash": "NvkN+bNz1j+aqhJf7qTJzFDzbOKCEvYKHqNrfYw7u8E=",
   "Source": "QuizAPI",
   "BasePath": "_content/QuizAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "QuizAPI\\wwwroot",
+      "Source": "QuizAPI",
+      "ContentRoot": "C:\\Users\\infla\\Desktop\\Dev\\QuizGame\\QuizAPI\\QuizAPI\\wwwroot\\",
+      "BasePath": "_content/QuizAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
